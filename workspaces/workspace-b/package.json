@@ -1,9 +1,6 @@
 {
     "name": "workspace-b",
     "version": "1.0.0",
-    "scripts": {
-        "build": "parcel build"
-    },
     "source": "src/index.js",
     "main": "dist/main.js",
     "module": "dist/module.js",
