@@ -1,0 +1,13 @@
+{
+    "name": "workspace-a",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "parcel build"
+    },
+    "source": "src/index.js",
+    "main": "dist/main.js",
+    "module": "dist/module.js",
+    "dependencies": {
+        "cross-env": "5.0.5"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bundle-test-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "parcel build workspaces/* --no-scope-hoist --no-cache"
+  },
+  "workspaces": [
+    "workspaces/*"
+  ],
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  },
+  "packageManager": "yarn@2.0.0-rc.4",
+  "resolutions": {
+    "@parcel/packager-js@2.8.2": "patch:@parcel/packager-js@npm:2.8.2#.yarn/patches/@parcel-packager-js-npm-2.8.2-9730c3d7a1.patch"
+  }
+}
